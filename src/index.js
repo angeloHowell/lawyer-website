@@ -10,7 +10,11 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-const port = 3000;
+const port = 3001;
+
+App.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
