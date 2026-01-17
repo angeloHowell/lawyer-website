@@ -9,5 +9,5 @@ services:
         dest: /static/$1
       - src: /(.*\.(js|css|png|jpg|jpeg|gif|ico|svg|webp))
         dest: /$1
-      - src: /(.*)  # Esta línea es crucial
+      - src: /(.*)  # Esta línea es crucial configura Render para que todas las rutas sirvan a index.html, permitiendo que BrowserRouter maneje el routing.
         dest: /index.html
