@@ -13,14 +13,14 @@ const Navbar = () => {
             <div className="navbar-brand">
               <span>
                 <img
-                  src="/assets/LOGO2.png"
+                  src="./assets/LOGO2.png"
                   className="img-fluid logo-image"
                   alt="scales of justice logo"
                   width="70"
                   height="70"
                 />
                  <img
-                   src="/assets/component.png"
+                   src="./assets/component.png"
                    className="img-fluid px-0 logo-text"
                    alt="Howell & Abogados - Asesoría Legal Integral"
                    width="200"

@@ -20,14 +20,14 @@ const Footer = () => {
             <div className="col-md-4 ps-4 mx-auto text-center">
               <span className="">
                 <img
-                  src="/assets/LOGO2.png"
+                  src="./assets/LOGO2.png"
                   className="img-fluid logo-image me-1"
                   alt="scales of justice logo"
                   width="50"
                   height="50"
                 />
                 <img
-                  src="/assets/component.png"
+                  src="./assets/component.png"
                   className="img-fluid px-0 logo-text"
                    alt="Howell & Abogados - Asesoría Legal Integral"
                   width="150"

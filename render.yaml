@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: howell-asociados
+    env: static
+    buildCommand: cd client && npm install && npm run build
+    staticPublishPath: ./client/build
+    routes:
+      - src: /static/(.*)
+        dest: /static/$1
+      - src: /(.*\.(js|css|png|jpg|jpeg|gif|ico|svg|webp))
+        dest: /$1
+      - src: /(.*)  # Esta línea es crucial
+        dest: /index.html

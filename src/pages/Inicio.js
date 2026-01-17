@@ -155,7 +155,7 @@ const Inicio = () => {
             <div className="col-lg-5 d-flex align-items-center justify-content-center">
               <div>
                 <img
-                  src="/assets/law-justice.webp"
+                  src="./assets/law-justice.webp"
                   className="intro-img img-fluid d-block rounded-2"
                   alt=" a gavel, scales of justice, and law books"
                   style={{ maxHeight: "300px" }}
@@ -185,7 +185,7 @@ const Inicio = () => {
                        </h5>
                        <div className="d-flex align-items-center">
                          <img
-                           src="/assets/barou.webp"
+                           src="./assets/barou.webp"
                            className="barou img-fluid mx-auto d-block rounded-2"
                            alt="derecho comercial y corporativo"
                            width="150"
@@ -216,7 +216,7 @@ const Inicio = () => {
                        </h5>
                        <div className="d-flex align-items-center">
                          <img
-                           src="/assets/unpir.webp"
+                           src="./assets/unpir.webp"
                            className="unpir img-fluid mx-auto d-block rounded-2"
                            alt="derecho civil y penal"
                            width="150"
@@ -275,7 +275,7 @@ const Inicio = () => {
             <div className="col-lg-5 d-flex align-items-center justify-content-center">
               <div>
                 <img
-                  src="/assets/about-us.webp"
+                  src="./assets/about-us.webp"
                   className="intro-img img-fluid d-block rounded-2"
                   alt="two persons at a desk"
                   style={{ maxHeight: "300px" }}
