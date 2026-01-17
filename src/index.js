@@ -10,9 +10,15 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-const port = 3001;
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3001;
 
-App.listen(port, () => {
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
+app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
 // If you want to start measuring performance in your app, pass a function
