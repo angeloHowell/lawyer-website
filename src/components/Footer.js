@@ -124,7 +124,7 @@ const Footer = () => {
             chatPersonName="Soporte"
             chatMessage={
               <>
-                ¡Hola!,
+                ¡Hola!
                 <br />
                 <br /> ¿Cómo podemos ayudarle?
               </>
