@@ -53,9 +53,7 @@ const Honorarios = () => {
                   <ul>
                     <li>Honorario fijo por servicio</li>
                     <li>Honorario por hora</li>
-                    <li>Honorario por resultado obtenido</li>
-                    <li>Honorario porcentual sobre el resultado</li>
-                    <li>Suscripción mensual (retainer)</li>
+                    <li>Honorarios según el caso abono inicial y cuotas mensuales </li>
                   </ul>
                   <h5>Honorarios para Personas Naturales:</h5>
                   <p>
@@ -157,6 +155,10 @@ const Honorarios = () => {
                     <li>Responsabilidad civil</li>
                     <li>Propiedad y inmuebles</li>
                     <li>Sucesiones</li>
+                    <li>Procesos ejecutivos de recuperación de cartera</li>
+                    <li>Responsabilidad civil contractual y extracontractual</li>
+                    <li>Procesos declarativos</li>
+                    <li>Procesos de prescripción adquisitiva de dominio</li>
                   </ul>
 
                   <h5>Derecho de Familia:</h5>
