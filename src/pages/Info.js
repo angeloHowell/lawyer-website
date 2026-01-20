@@ -90,7 +90,7 @@ const Honorarios = () => {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Derecho comercial, penal e internacional
+                  DERECHO COMERCIAL, PENAL E INTERNACIONAL
                 </button>
               </h2>
               <div
