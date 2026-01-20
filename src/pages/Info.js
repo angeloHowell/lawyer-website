@@ -78,7 +78,7 @@ const Honorarios = () => {
               </div>
             </div>
 
-            {/* áreas de práctica========== */}
+            {/* Derecho comercial, penal e internacional========== */}
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTwo">
                 <button
@@ -90,7 +90,7 @@ const Honorarios = () => {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  ÁREAS DE PRÁCTICA
+                  Derecho comercial, penal e internacional
                 </button>
               </h2>
               <div

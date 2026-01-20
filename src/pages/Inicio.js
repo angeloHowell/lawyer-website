@@ -134,7 +134,7 @@ const Inicio = () => {
               <div className="card-body">
                 <h6 className="guide-text mb-4">BIENVENIDO</h6>
                    <h5 className="lh-base text-center pb-4">
-                     Áreas de Práctica
+                     Asesoría y Representación
                    </h5>
 
                 <p className="text-separator fw-normal">
