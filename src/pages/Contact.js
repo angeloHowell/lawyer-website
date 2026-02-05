@@ -105,7 +105,7 @@ export const Contact = () => {
                   asuntos legales que enfrente.{" "}
                 </p>
                 <p>
-                  Por favor contáctenos completando el formulario de abajo y 
+                  Por favor contáctenos realizando click sobre el ícono de WhatsApp y 
                   estaremos encantados de brindarle nuestra ayuda.
                 </p>
                 <p>
