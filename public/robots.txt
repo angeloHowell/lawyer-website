@@ -1,4 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
-Sitemap: https://alinamarin.com/sitemap.xml
+Allow: /
+Sitemap: https://howell-asociados.onrender.com/sitemap.xml
