@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="google-site-verification" content="UTgzJrJLJOaoakfbRYuWhkLW_5PxDyKln-RfCdSsB78" />
+  
+  <!-- Preconnect para mejorar performance -->
   <link rel="preconnect" href="https://use.fontawesome.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" media="print" onload="this.media='all'">
@@ -15,14 +17,30 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
 
-  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <!-- FAVICON CORREGIDO - Usa ruta absoluta en lugar de %PUBLIC_URL% -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>Howell & Asociados</title>
+  
+  <!-- Meta tags para SEO -->
+  <meta name="description" content="Howell & Asociados, liderado por George Eduard Howell Rendon, ofrece asesoría integral en derecho comercial, penal, civil, familiar, inmigración y más." />
+  <meta name="keywords" content="abogados, Howell, asesoría legal, derecho comercial, derecho penal, derecho civil, derecho familiar, inmigración" />
+  <meta name="author" content="Howell & Asociados" />
+  
+  <!-- Open Graph para redes sociales -->
+  <meta property="og:title" content="Howell & Asociados - Asesoría Legal Integral" />
+  <meta property="og:description" content="Servicios profesionales de asesoría legal en Colombia" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://howellasociados.onrender.com/" />
+  <meta property="og:image" content="https://howellasociados.onrender.com/favicon.png" />
+  
+  <title>Howell & Asociados - Asesoría Legal Integral</title>
 </head>
 <body>
   <noscript>Howell & Asociados, liderado por George Eduard Howell Rendon, ofrece asesoría integral en derecho comercial, penal, civil, familiar, inmigración y más.</noscript>
   <div id="root"></div>
-  
 </body>
 </html>
