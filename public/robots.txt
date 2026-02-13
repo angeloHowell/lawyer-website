@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://howell-asociados.onrender.com/sitemap.xml
+Sitemap: https://howellasociados.onrender.com/sitemap.xml
