@@ -1,15 +1,10 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGavel,
   faScaleBalanced,
-  faTruck,
-  faPeopleLine,
   faBriefcase,
-  faScroll,
   faPassport,
-  faFileInvoice,
   faBuilding,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
