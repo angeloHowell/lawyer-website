@@ -276,7 +276,7 @@ const Inicio = () => {
                 <img
                   src="./assets/about-us.webp"
                   className="intro-img img-fluid d-block rounded-2"
-                  alt="two persons at a desk"
+                  alt="three persons talking in an office"
                   style={{ maxHeight: "300px" }}
                 />
               </div>

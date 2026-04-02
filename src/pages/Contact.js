@@ -1,6 +1,4 @@
 import { Helmet } from "react-helmet";
-
-import ContactForm from "../components/ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -12,19 +10,19 @@ import {
 export const Contact = () => {
   return (
     <div className="contact-page">
-        <Helmet>
-          <title>
-            Contacto | Howell & Abogados | George Eduard Howell Rendon
-          </title>
-          
-          <meta
-            name="description"
-            content="Contáctenos para asesoría legal profesional. Howell & Abogados ofrece servicios en derecho comercial, penal, civil, familiar e inmigración. Teléfono: 3168620336, Email: georgehowellren@hotmail.com."
-          />
-        </Helmet>
+      <Helmet>
+        <title>
+          Contacto | Howell & Abogados | George Eduard Howell Rendon
+        </title>
+        <meta
+          name="description"
+          content="Contáctenos para asesoría legal profesional. Howell & Abogados ofrece servicios en derecho comercial, penal, civil, familiar e inmigración. Teléfono: 3168620336, Email: georgehowellren@hotmail.com."
+        />
+      </Helmet>
       <section>
         <h6 className="guide-text ms-3 mt-4">CONTACTO</h6>
-        {/* contact info============ */}
+
+        {/* contact info */}
         <div className="container-lg bg-light my-5 shadow">
           <div className="contact-info text-center py-5">
             <div className="row no-gutters">
@@ -91,35 +89,30 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-        {/* contact form and text============ */}
+
+        {/* contact text */}
         <div className="container-lg">
-          <div className="row g-5">
-            <div className="col-sm-6 order-sm-first ">
-              <div className="contact-text d-flex flex-column ">
-                <h5 className="lh-base text-center pb-4">
-                  ¡No dude en contactarnos!
-                </h5>
-                <p>
-                  Estamos aquí para ofrecerle nuestro apoyo en todos los 
-                  asuntos legales que enfrente.{" "}
-                </p>
-                <p>
-                  Por favor contáctenos realizando click izquierdo sobre el ícono de WhatsApp y 
-                  estaremos encantados de brindarle nuestra ayuda.
-                </p>
-                <p>
-                  Recibiremos su solicitud y le responderemos a la brevedad 
-                  para más detalles.
-                </p>
-              </div>
-            </div>
-            {/*<div className="col-sm-6 ">
-              <ContactForm />
-            </div>*/}
+          <div className="contact-text d-flex flex-column">
+            <h5 className="lh-base text-center pb-4">
+              ¡No dude en contactarnos!
+            </h5>
+            <p>
+              Estamos aquí para ofrecerle nuestro apoyo en todos los
+              asuntos legales que enfrente.
+            </p>
+            <p>
+              Por favor contáctenos realizando click izquierdo sobre el ícono de WhatsApp y
+              estaremos encantados de brindarle nuestra ayuda.
+            </p>
+            <p>
+              Recibiremos su solicitud y le responderemos a la brevedad
+              para más detalles.
+            </p>
           </div>
         </div>
       </section>
     </div>
   );
 };
+
 export default Contact;

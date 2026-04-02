@@ -12,18 +12,18 @@ import ErrorPage from "./pages/ErrorPage";
 function App() {
   return (
     <div className="App">
-      <>
-        <BrowserRouter>
-          <Helmet>
-            <title>
-              Howell & Abogados | Asesoría Legal Integral en Colombia
-            </title>
-            <meta
-              name="description"
-              content="Howell & Abogados, liderado por George Eduard Howell Rendon. Especializados en derecho comercial, asuntos penales, civiles, familiares, inmigración y más. Soluciones legales profesionales y accesibles."
-            />
-          </Helmet>
-          <Navbar />
+      <BrowserRouter>
+        <Helmet>
+          <title>
+            Howell & Abogados | Asesoría Legal Integral en Colombia
+          </title>
+          <meta
+            name="description"
+            content="Howell & Abogados, liderado por George Eduard Howell Rendon. Especializados en derecho comercial, asuntos penales, civiles, familiares, inmigración y más. Soluciones legales profesionales y accesibles."
+          />
+        </Helmet>
+        <Navbar />
+        <main>
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/honorarios" element={<Info />} />
@@ -32,9 +32,9 @@ function App() {
             <Route path="/contacto" element={<Contact />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
-          <Footer />
-        </BrowserRouter>
-      </>
+        </main>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
