@@ -210,29 +210,36 @@ footer h6 {
 }
 
 .hero-btn-primary {
-  background-color: #042b4e;
-  color: #ebe2d6ff;
-  border: 2px solid #c2b697;
-  font-weight: 600;
+  background: linear-gradient(135deg, #be7413 0%, #d4942b 100%);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(190, 116, 19, 0.35);
+  transition: all 0.25s ease;
 }
 
 .hero-btn-primary:hover {
-  background-color: #c2b697;
-  color: #042b4e;
-  border-color: #c2b697;
+  background: linear-gradient(135deg, #d4942b 0%, #e0a83e 100%);
+  color: #fff;
+  box-shadow: 0 6px 22px rgba(190, 116, 19, 0.5);
+  transform: translateY(-2px);
 }
 
 .hero-btn-secondary {
-  background-color: transparent;
+  background: rgba(190, 116, 19, 0.12);
   color: #fff;
-  border: 2px solid #fff;
-  font-weight: 600;
+  border: 2px solid #d4942b;
+  font-weight: 700;
+  backdrop-filter: blur(2px);
+  transition: all 0.25s ease;
 }
 
 .hero-btn-secondary:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #c2b697;
-  border-color: #c2b697;
+  background-color: rgba(190, 116, 19, 0.12);
+  color: #fff;
+  border-color: #d4942b;
+  box-shadow: 0 4px 16px rgba(190, 116, 19, 0.35);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -344,16 +351,20 @@ footer h6 {
 }
 
 .final-cta-btn {
-  background-color: #c2b697;
-  color: #02182b;
+  background: linear-gradient(135deg, #be7413 0%, #d4942b 100%);
+  color: #fff;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0 4px 18px rgba(190, 116, 19, 0.4);
+  transition: all 0.25s ease;
 }
 
 .final-cta-btn:hover {
-  background-color: #042b4e;
-  color: #ebe2d6ff;
-  border: 2px solid #c2b697;
+  background: linear-gradient(135deg, #d4942b 0%, #e8b44a 100%);
+  color: #fff;
+  box-shadow: 0 8px 30px rgba(190, 116, 19, 0.55);
+  transform: translateY(-3px) scale(1.02);
 }
 
 .slide {
