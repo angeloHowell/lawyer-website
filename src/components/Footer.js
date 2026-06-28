@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faLocationDot,
-  // faAngleUp,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -82,30 +81,11 @@ const Footer = () => {
                 <p className="fw-light">
                   Lunes – Sabado: 8AM – 6PM <br /> Domingo: Cerrado
                 </p>
-                {/*<a href="/sitemap.xml" className="">
-                  Mapa del sitio
-                </a>*/}
               </div>
             </div>
           </div>
         </div>
 
-        {/* Scroll up */}
-        {/* <div>
-          <a
-            href="#top"
-            aria-label="Navigheaza in partea de sus"
-            className="scroll-to-top"
-            onClick={() =>
-              window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-              })
-            }
-          >
-            <FontAwesomeIcon icon={faAngleUp} className="up-icon" size="2x" />
-          </a>
-        </div> */}
         {/* WhatsAppWidget */}
         <div>
           <WhatsAppWidget
@@ -114,7 +94,7 @@ const Footer = () => {
             iconSize="50"
             iconColor="white"
             iconBgColor="#25D366"
-            headerIcon="assets/LOGO2.png"
+            headerIcon="./assets/LOGO2.png"
             headerTxtColor="white"
             headerBgColor="#02182b"
             headerTitle="Howell & Abogados"

@@ -35,8 +35,8 @@ const Abogacia = () => {
           <div className="row g-5 px-5 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100 ">
-                <div class="civil card-img-top">
-                  <div class="overlay"></div>
+                <div className="civil card-img-top">
+                  <div className="overlay"></div>
                 </div>
                 <div className="card-body text-center text-white py-4">
                   <FontAwesomeIcon
@@ -55,8 +55,8 @@ const Abogacia = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
-                <div class="criminal card-img-top">
-                  <div class="overlay"></div>
+                <div className="criminal card-img-top">
+                  <div className="overlay"></div>
                 </div>
                 <div className="card-body text-center text-white py-4">
                   <FontAwesomeIcon
@@ -75,8 +75,8 @@ const Abogacia = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
-                <div class="executare card-img-top">
-                  <div class="overlay"></div>
+                <div className="executare card-img-top">
+                  <div className="overlay"></div>
                 </div>
                 <div className="card-body text-center text-white py-4">
                   <FontAwesomeIcon
@@ -96,8 +96,8 @@ const Abogacia = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
-                <div class="family card-img-top">
-                  <div class="overlay"></div>
+                <div className="family card-img-top">
+                  <div className="overlay"></div>
                 </div>
                 <div className="card-body text-center text-white py-4">
                   <FontAwesomeIcon
@@ -118,8 +118,8 @@ const Abogacia = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
-                <div class="labor card-img-top">
-                  <div class="overlay"></div>
+                <div className="labor card-img-top">
+                  <div className="overlay"></div>
                 </div>
                 <div className="card-body text-center text-white py-4">
                   <FontAwesomeIcon
@@ -138,8 +138,8 @@ const Abogacia = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
-                <div class="business card-img-top">
-                  <div class="overlay"></div>
+                <div className="business card-img-top">
+                  <div className="overlay"></div>
                 </div>
                 <div className="card-body text-center text-white py-4">
                   <FontAwesomeIcon
